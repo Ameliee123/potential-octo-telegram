@@ -7,3 +7,5 @@ let variableBooLean = true
 variableBooLean = false
 
 let variableNull = null
+
+let variableLista = ['']
