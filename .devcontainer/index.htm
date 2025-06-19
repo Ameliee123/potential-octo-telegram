@@ -5,20 +5,43 @@
     <title>title</title>
 </head>
 <body>
-    <h1 
-    id="titulo"
-    ></h1>   
+ <h1 id="titulo"
+ </h1>   
 </body>
 
+
 <script>
-let titulo = document.getElementById ("titulo")
-titulo.innerHTML = "hola soy amelie"
-titulo.style.color = "purple"
-titulo.style.backgroundColor = "lavender"
 
-let crearElemento = document.createElement("hi")
-crearElemento.innerHTML = "nuevo elemento"
-crearElemento.stylecolor = 
-</script>
+ function agregarElemento(texto,color,fondo){ 
+ let crearElemento = document.createElement("h1")
+  crearElemento.innerHTML = texto
+  crearElemento.style.color = color
+  crearElemento.style.backgroundColor = fondo
+  document.body.appendChild(crearElemento)
+  }
 
+function convertir_CMYK_a_RGB(c,m,y,k){
+let r,g,b
+r=255*(1-c)*(1-k)
+}
+
+
+agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento("tercer elemento",,"pink","blue")
+agregarElemento("cuarto elemento","purple","#012")
+
+</script>agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento(undefined)
 </html>
